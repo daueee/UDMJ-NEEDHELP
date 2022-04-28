@@ -38,7 +38,15 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
 
 # Autores
 
-[Exemplo](https://github.com/testing-library/react-testing-library#contributors)
+<table>
+  <tr>
+     <td align="center"><a href="https://br.linkedin.com/in/dawe-goulart-77931865"><img src="https://avatars.githubusercontent.com/u/15280979?v=4" width="100px;" alt=""/><br /><sub><b>Dawe Goulart</b></sub></a><br /><a href="https://github.com/daueee" <a href="https://github.com/all-contributors/all-contributors/pulls?q=is%3Apr+reviewed-by%3Akentcdodds" title="Registro Academico">121116855</a>
+    <td align="center"><a href="https://br.linkedin.com/in/dawe-goulart-77931865"><img src="https://avatars.githubusercontent.com/u/15280979?v=4" width="100px;" alt=""/><br /><sub><b>Dawe Goulart</b></sub></a><br /><a href="https://github.com/daueee" <a href="https://github.com/all-contributors/all-contributors/pulls?q=is%3Apr+reviewed-by%3Akentcdodds" title="Registro Academico">121116855</a>
+ <td align="center"><a href="https://br.linkedin.com/in/dawe-goulart-77931865"><img src="https://avatars.githubusercontent.com/u/15280979?v=4" width="100px;" alt=""/><br /><sub><b>Dawe Goulart</b></sub></a><br /><a href="https://github.com/daueee" <a href="https://github.com/all-contributors/all-contributors/pulls?q=is%3Apr+reviewed-by%3Akentcdodds" title="Registro Academico">121116855</a>
+ <td align="center"><a href="https://br.linkedin.com/in/dawe-goulart-77931865"><img src="https://avatars.githubusercontent.com/u/15280979?v=4" width="100px;" alt=""/><br /><sub><b>Dawe Goulart</b></sub></a><br /><a href="https://github.com/daueee" <a href="https://github.com/all-contributors/all-contributors/pulls?q=is%3Apr+reviewed-by%3Akentcdodds" title="Registro Academico">121116855</a>
+ <td align="center"><a href="https://br.linkedin.com/in/dawe-goulart-77931865"><img src="https://avatars.githubusercontent.com/u/15280979?v=4" width="100px;" alt=""/><br /><sub><b>Dawe Goulart</b></sub></a><br /><a href="https://github.com/daueee" <a href="https://github.com/all-contributors/all-contributors/pulls?q=is%3Apr+reviewed-by%3Akentcdodds" title="Registro Academico">121116855</a>
+ <td align="center"><a href="https://br.linkedin.com/in/dawe-goulart-77931865"><img src="https://avatars.githubusercontent.com/u/15280979?v=4" width="100px;" alt=""/><br /><sub><b>Dawe Goulart</b></sub></a><br /><a href="https://github.com/daueee" <a href="https://github.com/all-contributors/all-contributors/pulls?q=is%3Apr+reviewed-by%3Akentcdodds" title="Registro Academico">121116855</a>
+ <td align="center"><a href="https://br.linkedin.com/in/dawe-goulart-77931865"><img src="https://avatars.githubusercontent.com/u/15280979?v=4" width="100px;" alt=""/><br /><sub><b>Dawe Goulart</b></sub></a><br /><a href="https://github.com/daueee" <a href="https://github.com/all-contributors/all-contributors/pulls?q=is%3Apr+reviewed-by%3Akentcdodds" title="Registro Academico">121116855</a></td> </table>
 
 # Licença
 
