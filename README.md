@@ -26,10 +26,16 @@ Para versão 1.0 apresentaremos nossa plataforma Desktop, que possibilitará o c
 
 # Requisitos Funcionais 
 
-- [ ] Cadastrar Usuário.......
+- [ ] Cadastrar Usuário.
 
 
 # Tecnologias Usadas
+
+AWS Dynamo DB
+Docker
+Java
+HTML
+Css
 
 
 # Contribuição
