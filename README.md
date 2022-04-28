@@ -7,7 +7,7 @@
 
 A NeedHelp é uma plataforma que conecta fornecedores de serviços a clientes que necessitam de uma 'mãozinha' para deixar tudo em ordem. Buscar um profissional qualificado e de confiança para a execução de serviços manuais, muitas vezes se apresenta como um grande desafio atualmente. A NeedHelp terá como objetivo conectar os melhores profissionais as demandas existentes do mercado. De forma inicial,  estarão disponíveis as áreas/habilidades seguintes; pintor, jardineiro, gesseiro, eletricista, diarista, bombeiro hidráulico, pedreiro.
 
-Além de ajudar os profissionais a se conectar, a NeedHelp também te ajuda a construir um mundo melhor! Sabemos a importância das instituições filantrópicas, ONG's e  de caridade dentro de nossa sociedade, pensando nisso, todos os fornecedores cadastrados em nossa base poderão exibir seus serviços de forma gratuita, bastando apenas executar uma prestação de serviço em uma instituição localizada em sua cidade.
+Além de ajudar os profissionais a se conectar, a NeedHelp também se preocupa com a construção de um mundo melhor! Sabemos a importância das instituições filantrópicas, ONG's e  de caridade dentro de nossa sociedade, pensando nisso, todos os fornecedores cadastrados em nossa base poderão exibir seus serviços de forma gratuita, bastando apenas executar uma prestação de serviço em uma instituição localizada em sua cidade.
 
 Para versão 1.0 apresentaremos nossa plataforma Desktop, que possibilitará o cadastro de todos os atores mencionados bem como o direcionamento de demandas na plataforma.
 
