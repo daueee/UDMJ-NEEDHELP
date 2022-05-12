@@ -14,8 +14,30 @@ A NeedHelp irá funcionar como um gateway entre cliente, prestadores de serviço
 <p><img src="https://i.ibb.co/7V3f6YH/Persona-Daniel.png" width="925" height="550"></p>
 <p>&nbsp;</p>
 <br>
+<p><img src="https://i.ibb.co/LnpJYr5/Screen-Shot-2022-05-12-at-20-11-07.png" width="925" height="550"></p>
+<p>&nbsp;</p>
+<br>
 <p><img src="https://i.ibb.co/MgwzH4C/Persona-Rosa.png" width="925" height="550"></p>
 <p>&nbsp;</p>
 <br>
 <p><img src="https://i.ibb.co/VBTGmgh/Screen-Shot-2022-05-12-at-19-29-14.png" width="925" height="550"></p>
 <p>&nbsp;</p>
+
+# Histórias de usuário - User Storys
+
+RF01 - Cadastrar Fornecedor - Eu,Mario Jorge, como profissional especializado em mão de obra, quero me cadastrar na plataforma para que clientes possam me encontrar caso necessitem de algum serviço.
+
+RF02 - Cadastrar Cliente - Eu, Rubens Silva, como usuário, quero me cadastrar na plataforma a fim de encontrar bons profissionais que possam prestar serviços para mim.
+
+RF03 - Cadastrar ONG - Eu ,Enerson Wagner, como diretor da ONG Viver Bem, quero me cadastrar na plataforma para candidatar minha instituição a receber reparos e ajudar pessoas de baixa renda a encontrar bons profissionais voluntários que estejam dispostos a realizar trabalhos de baixo ou nenhum custo.
+
+RF04 – Efetuar login - Eu Daniel Henrique,como usuário, quero ter um Login para que eu possa acessar a plataforma e ter meus registros salvos e seguros.
+
+RF05 - Eu Camila Ribeiro, como usuária,quero poder pesquisar profissionais que tenham uma boa avaliação e que se encaixem no perfil de trabalho e especialidade que preciso.
+
+RF06 - Chat com fornecedor - Eu, Rosa Maria, como usuária, quero poder conversar com o contratado antes para que eu me sinta mais segura ao contratar o serviços,tendo certeza que ele vai cumprir com o serviço e o horário.
+
+RF12  - Excluir/Cancelar solicitação - Eu,Camila Ribeiro,como usuária, quero poder excluir ou cancelar uma solicitação de serviço, para que eu tenha o conforto de cancelar um serviço caso algo seja feito em desacordo.
+
+Referente ao requisto 006
+
