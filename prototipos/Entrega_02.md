@@ -26,17 +26,18 @@
 </p>
 
 <p align="center">
-# Login
-</p>
-<p align="center">
-<img src="https://i.ibb.co/Gkcbqws/01-Forgot-Password.png" alt="Tela de abertura" width="508" height="1099">
-</p>
-
-<p align="center">
 # Tela de cadastro
 </p>
 <p align="center">
 <img src="https://i.ibb.co/qrVZf4M/02-Register.png" alt="Tela de abertura" width="508" height="1099">
+</p>
+
+
+<p align="center">
+# Esqueci a senha
+</p>
+<p align="center">
+<img src="https://i.ibb.co/Gkcbqws/01-Forgot-Password.png" alt="Tela de abertura" width="508" height="1099">
 </p>
 
 
@@ -55,18 +56,37 @@
 </p>
 
 <p align="center">
-# Home
+# Pesquisa fornecedores
 </p>
 <p align="center">
 <img src="https://i.ibb.co/PGnN1Y2/08-Notifications.png" alt="Tela de abertura" width="508" height="1099">
 </p>
 
 <p align="center">
-# Home
+# Perfil Fornecedor
 </p>
 <p align="center">
 <img src="https://i.ibb.co/pQ1ktC4/06-New-Review-1-1.png" alt="Tela de abertura" width="508" height="1099">
 </p>
 
+<p align="center">
+# Review Fornecedor
+</p>
+<p align="center">
+<img src="https://i.ibb.co/PwfBBQY/Review-1.png" alt="Tela de abertura" width="508" height="1099">
+</p>
+
+<p align="center">
+# Perfil Cliente
+</p>
+<p align="center">
+<img src="https://i.ibb.co/QkCcbkL/07-My-Profile.png" alt="Tela de abertura" width="508" height="1099">
+</p>
 
 
+<p align="center">
+# Perfil Cliente
+</p>
+<p align="center">
+<img src="https://i.ibb.co/vDdKS3Z/07-1-Reviews.png" alt="Tela de abertura" width="508" height="1099">
+</p>
