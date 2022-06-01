@@ -66,29 +66,29 @@
 </p>
 
 <p align="center">
-<img src="https://i.ibb.co/pQ1ktC4/06-New-Review-1-1.png" alt="Tela de abertura" width="508" height="1099">
+<img src="https://i.ibb.co/6bYNgdD/PHOTO-2022-05-31-21-44-50.jpg" alt="Tela de abertura" width="308" height="450">
 </p>
 
 <p align="center">
 # Review Fornecedor
 </p>
 <p align="center">
-<img src="https://i.ibb.co/PwfBBQY/Review-1.png" alt="Tela de abertura" width="508" height="1099">
+<img src="https://i.ibb.co/HC8RJCP/PHOTO-2022-05-31-21-45-01.jpg" alt="Tela de abertura" width="308" height="450">
 </p>
 
 <p align="center">
 # Perfil Cliente
 </p>
 <p align="center">
-<img src="https://i.ibb.co/QkCcbkL/07-My-Profile.png" alt="Tela de abertura" width="508" height="1099">
+<img src="https://i.ibb.co/KzDVPfX/PHOTO-2022-05-31-21-45-17.jpg" alt="Tela de abertura" width="308" height="450">
 </p>
 
 
 <p align="center">
-# Perfil Cliente
+# Contratações
 </p>
 <p align="center">
-<img src="https://i.ibb.co/vDdKS3Z/07-1-Reviews.png" alt="Tela de abertura" width="508" height="1099">
+<img src="https://i.ibb.co/931rXTq/PHOTO-2022-05-31-21-45-29.jpg" alt="Tela de abertura" width="308" height="450">
 </p>
 
 # hi-fi
@@ -175,7 +175,7 @@
 
 
 <p align="center">
-# Perfil Cliente
+# Contratações
 </p>
 <p align="center">
 <img src="https://i.ibb.co/vDdKS3Z/07-1-Reviews.png" alt="Tela de abertura" width="508" height="1099">
