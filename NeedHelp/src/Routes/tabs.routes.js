@@ -4,17 +4,18 @@ import { MaterialIcons} from '@expo/vector-icons'
 
 const { Screen, Navigator } = createBottomTabNavigator();
 
-import { Cliente } from '../screens/cliente';
-import { Home } from '../screens/home';
+import { Cliente } from '../Screens/cliente';
+import { Home } from '../Screens/home';
 import { Login } from '../Screens/login';
 
 
-export function TabsRoutes() {
+export function TabsRoutes({navigation,route}) {
     return (
         <Navigator
          screenOptions={{
              tabBarActiveTintColor:'#604412',
-             tabBarInactiveTintColor: 'gray'
+             tabBarInactiveTintColor: 'gray',
+
          }}
          initialRouteName="Login"
         >
@@ -69,11 +70,11 @@ export function TabsRoutes() {
                             size={size}
                         />
                     ),
-                    headerShown: false,
-                    title: 'Login',
+                    headerShown: true,
+                    title: 'Acessar',
                     headerTitleAlign: 'center',
                     headerStyle: {
-                        backgroundColor: 'steelblue'
+                        backgroundColor: '#604412'
                     },
                     headerTintColor: '#FFF'
                 }}

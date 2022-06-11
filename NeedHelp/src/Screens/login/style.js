@@ -1,52 +1,58 @@
-import {StyleSheet} from 'react-native'
+import {StyleSheet, Dimensions,Keyboard} from 'react-native'
 
 const styles = StyleSheet.create({
     screen: {
-        justifyContent: 'center',
-        width: "100vw",
-        alignItems: 'center'
+        justifyContent:'center',
+        alignItems:'center',
+        width: Dimensions.get('window').width,
+        height: Dimensions.get('window').width,
     },
     screenSecundaria: {
-        width: 250,
-        marginTop: "8%",
+        justifyContent:'center',
+        width: Dimensions.get('window').width/'1.5',
+        height: Dimensions.get('window').width,
     },
     text: {
         color: 'white'
     },
     imageFundo:{
-        resizeMode:"cover",
-        width: "100",
-        height: "100vh"
+        resizeMode:'stretch',
+        alignSelf: 'center',
+        position: 'absolute',
+        width: Dimensions.get('window').width,
+        height: Dimensions.get('window').height,
     },
     buttom:{
         borderRadius: 10,
         alignItems: "center",
-        width: "100%",
+        width: '100%',
         backgroundColor: "#604412",
         paddingTop: 14,
         paddingBottom: 14,
         marginTop: 30,
     },
     logoNeedHelp:{
-        width: "100%",
-        height: "100%",
+        alignSelf:'center',
+        marginTop:265,
+        width: 200,
+        height: 200,
         resizeMode: 'contain',
     },
     input:{
         height: 40,
-        width: "100%",
+        width: '100%',
         borderWidth: 1,
         padding: 10,
-        borderRadius: "10px",
-        marginTop: "5px"
+        borderRadius: 10,
+        marginTop: 5
     },
     textPassword:{
-        marginTop: "10px",
+        marginTop: 10,
         color: "#604412",
         textAlign: "right",
     },
     textNewAccount:{
-        marginTop:"60px",
+        marginTop:60,
         textAlign: "center",
         color: "#604412",
     }

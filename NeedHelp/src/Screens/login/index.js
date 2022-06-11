@@ -1,15 +1,26 @@
 import React from 'react'
-import {View, Text, Button, ImageBackground, Image, TextInput, TouchableOpacity } from 'react-native'
+import {View, Text, Button, ImageBackground, Image, TextInput, TouchableOpacity,TouchableWithoutFeedback,Keyboard } from 'react-native'
 
 
 import styles from './style'
 
 const img = './adaptive-icon.png'
 
+const DismissKeyboard = ({ children }) => (
+    <TouchableWithoutFeedback onPress={Keyboard.dismiss}
+                              accessible={false}>
+      {children}
+  </TouchableWithoutFeedback>
+
+
+);
+
+styles.imageFundo = undefined;
+
 export function Login({ navigation }){
 
     function openScreen(){
-        navigation.navigate('Home')
+        navigation.navigate('Login')
     }
 
     const [email, onChangeEmail] = React.useState();
@@ -27,15 +38,16 @@ export function Login({ navigation }){
                 source={require('../../../assets/Hi-fi/logoNeed.png')}
                 style={styles.logoNeedHelp}
                 />
+                <DismissKeyboard>
                 <View>
                     <TextInput
                         style={styles.input}
                         onChangeText={onChangeEmail}
                         value={email}
                         placeholder="Email"
-
                     />
                     <TextInput
+                        secureTextEntry={true}
                         style={styles.input}
                         onChangeText={onChangeSenha}
                         value={senha}
@@ -43,6 +55,7 @@ export function Login({ navigation }){
 
                     />
                 </View>
+                </DismissKeyboard>
                 <View>
                     <Text style={styles.textPassword}>Esqueceu a senha?</Text>
                 </View>

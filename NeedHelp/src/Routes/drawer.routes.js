@@ -4,9 +4,10 @@ import { MaterialIcons} from '@expo/vector-icons'
 
 const { Screen, Navigator } = createDrawerNavigator();
 
-import { Cliente } from '../screens/cliente';
-import { Home } from '../screens/home';
+import { Cliente } from '../Screens/cliente';
+import { Home } from '../Screens/home';
 import { Login } from '../Screens/login';
+
 
 
 export function DrawerRoutes() {
@@ -68,6 +69,7 @@ export function DrawerRoutes() {
                         />
                     ),
                     headerShown: false,
+                    tabBarVisible: false,
                     title: 'Login',
                     headerTitleAlign: 'center',
                     headerStyle: {

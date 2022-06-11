@@ -1,0 +1,6 @@
+module Pods_needHelp_needHelpTests {
+  umbrella header "Pods-needHelp-needHelpTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
