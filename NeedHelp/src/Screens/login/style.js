@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     },
     buttom:{
         borderRadius: 10,
-        alignItems: "center",
+        alignItems: 'center',
         width: '100%',
         backgroundColor: "#604412",
         paddingTop: 14,
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     },
     logoNeedHelp:{
         alignSelf:'center',
-        marginTop:265,
+        marginTop:125,
         width: 200,
         height: 200,
         resizeMode: 'contain',

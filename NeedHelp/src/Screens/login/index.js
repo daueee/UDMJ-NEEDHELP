@@ -6,15 +6,6 @@ import styles from './style'
 
 const img = './adaptive-icon.png'
 
-const DismissKeyboard = ({ children }) => (
-    <TouchableWithoutFeedback onPress={Keyboard.dismiss}
-                              accessible={false}>
-      {children}
-  </TouchableWithoutFeedback>
-
-
-);
-
 styles.imageFundo = undefined;
 
 export function Login({ navigation }){
@@ -38,7 +29,10 @@ export function Login({ navigation }){
                 source={require('../../../assets/Hi-fi/logoNeed.png')}
                 style={styles.logoNeedHelp}
                 />
-                <DismissKeyboard>
+                <TouchableWithoutFeedback
+                    onPress={()=>{
+                        Keyboard.dismiss();
+                    }}>
                 <View>
                     <TextInput
                         style={styles.input}
@@ -55,7 +49,7 @@ export function Login({ navigation }){
 
                     />
                 </View>
-                </DismissKeyboard>
+                </TouchableWithoutFeedback>
                 <View>
                     <Text style={styles.textPassword}>Esqueceu a senha?</Text>
                 </View>
