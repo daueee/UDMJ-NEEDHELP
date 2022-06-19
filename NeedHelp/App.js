@@ -4,9 +4,9 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { NavigationContainer } from '@react-navigation/native';
 
-import { Login } from './src/Screens/login'
+import  Login  from './src/Screens/login'
 import { Home } from './src/Screens/home'
-import { Cliente } from './src/Screens/cliente'
+import { Perfil } from './src/Screens/perfil'
 import { Routes } from './src/Routes';
 
 

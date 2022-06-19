@@ -1,6 +1,6 @@
 import { NavigationContainer } from "@react-navigation/native";
-import { DrawerRoutes } from "./drawer.routes";
 import { TabsRoutes } from "./tabs.routes";
+import { StackRoutes } from "./stack.routes";
 
 
 
@@ -12,7 +12,7 @@ export function Routes() {
                 <Drawer.Screen name="Login" component={Login} />
                 <Drawer.Screen name="Home" component={Home} />
             </Drawer.Navigator> */}
-            <TabsRoutes/>
+            <StackRoutes/>
         </NavigationContainer>
     )
 }
