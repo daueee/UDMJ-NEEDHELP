@@ -1,10 +1,9 @@
 import React from 'react'
 import {View, Text, Button, ImageBackground, Image, TextInput, TouchableOpacity,TouchableWithoutFeedback,Keyboard } from 'react-native'
 
-
 import styles from './style'
+import stylesGeral from '../styleGeral'
 
-const img = './adaptive-icon.png'
 
 const DismissKeyboard = ({ children }) => (
     <TouchableWithoutFeedback onPress={Keyboard.dismiss}
@@ -15,12 +14,16 @@ const DismissKeyboard = ({ children }) => (
 
 );
 
-styles.imageFundo = undefined;
 
-export function Login({ navigation }){
+
+export default function Login({ navigation }){
+
+    function openScreenRegister(){ 
+        navigation.navigate('Register')
+    }
 
     function openScreen(){
-        navigation.navigate('Login')
+
     }
 
     const [email, onChangeEmail] = React.useState();
@@ -29,11 +32,11 @@ export function Login({ navigation }){
 
     return (
         <ImageBackground
-                source={require('../../../assets/Hi-fi/00 Splash Screen – 1.png')}
-                style={styles.imageFundo}
+                source={require('../../../assets/Hi-fi/imagemFundo.png')}
+                style={stylesGeral.imageFundo}
             >
-        <View style={styles.screen}>
-            <View style={styles.screenSecundaria}>
+        <View style={stylesGeral.screen}>
+            <View style={stylesGeral.screenSecundaria}>
                 <Image
                 source={require('../../../assets/Hi-fi/logoNeed.png')}
                 style={styles.logoNeedHelp}
@@ -61,14 +64,22 @@ export function Login({ navigation }){
                 </View>
                 <View>
                     <TouchableOpacity
-                        style={styles.buttom}
-                        onPress={openScreen}
+                        style={stylesGeral.buttom}
+                        onPress={() => {
+                            navigation.reset({
+                                index: 0,
+                                routes: [{name: 'Welcome'}]
+                            })
+                        }}
                     >
-                        <Text style={{color: "#FFF"}}>Entrar</Text>
+                        <Text style={stylesGeral.text}>Entrar</Text>
                     </TouchableOpacity>
                 </View>
                 <View>
-                    <Text style={styles.textNewAccount}>Criar nova conta</Text>
+                    <Text 
+                        style={styles.textNewAccount}
+                        onPress={openScreenRegister}
+                        >Criar nova conta</Text>
                 </View>
             </View>
         </View>

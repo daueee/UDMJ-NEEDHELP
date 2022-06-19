@@ -4,23 +4,24 @@ import { MaterialIcons} from '@expo/vector-icons'
 
 const { Screen, Navigator } = createBottomTabNavigator();
 
-import { Cliente } from '../Screens/cliente';
+import { Perfil } from '../Screens/perfil';
 import { Home } from '../Screens/home';
-import { Login } from '../Screens/login';
+import  Login  from '../Screens/login';
 
 
 export function TabsRoutes({navigation,route}) {
     return (
         <Navigator
          screenOptions={{
-             tabBarActiveTintColor:'#604412',
+             tabBarActiveTintColor:'#FFF',
              tabBarInactiveTintColor: 'gray',
+             tabBarActiveBackgroundColor: '#604412',
+             tabBarInactiveBackgroundColor: '#604412'
 
          }}
-         initialRouteName="Login"
         >
             <Screen
-                name='Home'
+                name='InicioApp'
                 component={Home}
                 options={{
                     tabBarIcon: ({color, size}) => (
@@ -40,18 +41,18 @@ export function TabsRoutes({navigation,route}) {
                 }}
             />
             <Screen
-                name='Cliente'
-                component={Cliente}
+                name='Perfil'
+                component={Perfil}
                 options={{
                     tabBarIcon: ({color, size}) => (
                         <MaterialIcons
-                            name='people'
+                            name='person'
                             color={color}
                             size={size}
                         />
                     ),
                     headerShown: false,
-                    title: 'Clientes',
+                    title: 'Perfi',
                     headerTitleAlign: 'center',
                     headerStyle: {
                         backgroundColor: 'steelblue'
@@ -59,26 +60,7 @@ export function TabsRoutes({navigation,route}) {
                     headerTintColor: '#FFF'
                 }}
             />
-            <Screen
-                name='Login'
-                component={Login}
-                options={{
-                    tabBarIcon: ({color, size}) => (
-                        <MaterialIcons
-                            name='people'
-                            color={color}
-                            size={size}
-                        />
-                    ),
-                    headerShown: true,
-                    title: 'Acessar',
-                    headerTitleAlign: 'center',
-                    headerStyle: {
-                        backgroundColor: '#604412'
-                    },
-                    headerTintColor: '#FFF'
-                }}
-            />
+        
         </Navigator>
     )
 }
